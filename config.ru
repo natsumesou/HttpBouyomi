@@ -1,6 +1,5 @@
 require 'rubygems' unless defined?(Gem)
 require 'bundler/setup'
-Bundler.require(:default)
 
 class Bouyomi
   def call env
